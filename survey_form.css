@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Cabin;
+    src: url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+}
+
+body {
+    background-image: url("coding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    background-color: rgba(46, 38, 90, 0.8);
+    margin: auto;
+    width: clamp(30rem, 50vw, 60rem);
+    font-family: 'Cabin', sans-serif;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+
+}
+
+form {
+    margin: auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+
+#title {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#description {
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    border: none;
+    padding: 0.4rem;
+    
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+}
+
+
+.contact {
+    width: 98%;
+}
+
+textarea.contact {
+    width: 96.5%;
+    margin-bottom: 0.5rem;
+    resize: none;
+    font-family: 'Cabin', sans-serif;
+}
+
+.contact-button {
+    background-color: rgb(119, 236, 119);
+    color: white;
+    font-weight: 550;
+
+
+}
