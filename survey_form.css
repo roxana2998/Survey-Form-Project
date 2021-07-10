@@ -194,6 +194,7 @@ input {
   border-radius: 5px;
   padding: 0.4rem;
   border: none;
+  background-color: white;
 }
 
 input.contact {
