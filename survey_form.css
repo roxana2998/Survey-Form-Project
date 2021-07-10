@@ -9,7 +9,7 @@
   }
 
 
-/* ........NAV BAR.......*/
+/* ........NAVBAR.......*/
 
 nav {
   display: flex;
@@ -19,7 +19,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 4rem;
+  height: 3.5rem;
   width: 100vw;
   font-family: "Cabin", sans-serif;
   
@@ -60,14 +60,23 @@ h2 {
 .follow {
     color: black;
     text-align: center;
-    height: 1.5rem;
-    width: 4.5rem;
+    height: 1.3rem;
+    width: 3.6rem;
+    font-size: 0.7rem;
     
 }
 
+.green-btn {
+  background-color: rgb(117, 212, 117);
+}
+
+.green-btn:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
 span {
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -85,6 +94,7 @@ span {
   height: 50%;
 }
 
+
 .image-heart {
     display: flex;
     align-items: center;
@@ -94,7 +104,11 @@ span {
 }
 
 .button-container {
-    background-color: rgba(69, 61, 88, 0.9);  
+    background-color: rgba(94, 86, 110, 0.9);  
+}
+
+.button-container:hover {
+  background-color: rgb(112, 106, 129);
 }
 
 .connect-btn {
@@ -107,9 +121,7 @@ span {
     color: black;
 }
 
-.green-btn {
-    background-color: rgb(117, 212, 117);
-}
+
 /* ........BODY.......*/
 
 
@@ -120,6 +132,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
+  margin: 0;
 }
 
 .container {
@@ -227,4 +240,13 @@ button {
   font-weight: 500;
   font-size: 1rem;
   background-color: rgb(69, 165, 69);
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100vw;
+    margin: 0;
+    margin-top: 2rem;
+    border-radius: 0;
+  }
 }
